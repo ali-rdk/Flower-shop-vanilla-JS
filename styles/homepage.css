@@ -23,6 +23,11 @@ header{
 .title{
     margin: 1.9rem 6rem;
     font-size: 2rem;
+    text-decoration: none;
+}
+
+.title:hover{
+    cursor: pointer;
 }
 
 .title span{
@@ -40,15 +45,26 @@ header{
 }
 .menu p:hover{
     color: #FF8F52;
+    cursor: pointer;
 }
 
 .btn{
     margin: 2.3rem 7rem;
 }
 
-.btn button{
+.btn a{
     background-color: transparent;
     border-color: transparent;
     padding: 0 0.6rem;
     border-radius: 0.3rem;
+    text-decoration: none;
+}
+
+.footer{
+    margin-bottom: 0;
+    background-color: #454545;
+    display: flex;
+    justify-content: space-between;
+    max-height: 21rem;
+    max-width: 100%;
 }
