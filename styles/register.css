@@ -10,3 +10,86 @@ body{
     background-color: #dadada;
     font-family: 'Roboto', sans-serif;
 }
+
+.register-section{
+    background-color: white;
+    display: flex;
+    margin: 5.5rem auto;
+    max-width: 60rem;
+    height: 35rem;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.second-title{
+    color: #838383;
+}
+
+.home-button{
+    margin: 0.8rem;
+    text-decoration: none;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+.register-from form{
+    flex-direction: column;
+    margin: 3.5rem 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.register-form form input{
+    width: 100%;
+    margin: 1rem 0;
+    height: 4rem;
+    border-radius: 0.3rem;
+    border-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.register-form form input:hover{
+    border-color: #838383;
+}
+
+.register-button{
+    background-color: #FF8F52;
+    color: white;
+    border-color: transparent;
+    border-radius: 0.3rem;
+    margin: 4rem;
+}
+
+.register-button:hover{
+    border-color: transparent;
+}
+
+.register-msg{
+    /* margin: 1rem; */
+    text-align: center;
+}
+
+.register{
+    color: #FF8F52;
+    text-decoration: #FF8F52
+}
+
+.cover{
+    height: 100%;
+    width: 50%;
+}

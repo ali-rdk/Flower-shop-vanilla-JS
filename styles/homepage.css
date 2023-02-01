@@ -9,6 +9,9 @@
 body{
     background-color: #dadada;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header{
@@ -24,6 +27,8 @@ header{
     margin: 1.9rem 6rem;
     font-size: 2rem;
     text-decoration: none;
+    text-decoration-color: black;
+    text-align: left;
 }
 
 .title:hover{
@@ -60,11 +65,73 @@ header{
     text-decoration: none;
 }
 
+.hero-section{
+    display: flex;
+    margin: 2rem;
+}
+
+
 .footer{
-    margin-bottom: 0;
+    bottom: 0;
     background-color: #454545;
     display: flex;
     justify-content: space-between;
     max-height: 21rem;
-    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 3rem 7rem;
+    text-align: left;
+    color: white;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.footer-title{
+    margin: 0.5rem 0;
+    left: 0;
+    top: 0;
+    font-size: 2rem;
+    text-decoration: black;
+}
+
+.footer-title span{
+    color: #FF8F52;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-second-title{
+    font-size: 1.5rem;
+}
+
+.links a{
+    color: #d9d9d9;
+    font-size: 1rem;
+    text-decoration: none;
+    text-decoration-color: #d9d9d9;
+}
+
+.links a:hover{
+    color: white;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contacts span svg{
+    margin: 0 0.5rem;
 }
