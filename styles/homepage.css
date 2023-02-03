@@ -67,9 +67,105 @@ header{
 
 .hero-section{
     display: flex;
-    margin: 2rem;
+    margin: 10rem auto;
+    width: 90%;
+    height: 20rem;
+    justify-content: space-between;
 }
 
+.hero-text{
+    flex-direction: column;
+    font-size: 3rem;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.browse{
+    font-size: 1rem;
+    margin: 1rem 0;
+    justify-content: space-between;
+    height: 5rem;
+}
+
+.browse a button{
+    background-color: #FF8F52;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    border-color: transparent;
+    padding: 0.3rem;
+    color: white;
+}
+
+.hero-image{
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-between;
+    left: 0;
+}
+
+.hero-image img{
+    margin: 0.2rem;
+}
+
+.best-seller{
+    margin: 0 auto;
+    width: 90%;
+    height: 33rem;
+}
+
+.section-title{
+    margin: 0.5rem auto;
+    width: 30rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.flower-card-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flower-card{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+.flower-card img{
+    width: 90%;
+    height: 65%;
+    margin: auto;
+}
+
+.flower-card-title{
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+}
+
+.flower-card-price{
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.5rem auto;
+}
+
+.flower-price{
+    font-size: 1rem;
+    color: #838383;
+}
+
+.add-to-cart{
+    text-decoration: none;
+    text-decoration-color: #FF8F52;
+    color: #FF8F52;
+}
 
 .footer{
     bottom: 0;
@@ -78,7 +174,7 @@ header{
     justify-content: space-between;
     max-height: 21rem;
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     padding: 3rem 7rem;
     text-align: left;
     color: white;
