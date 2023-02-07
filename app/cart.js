@@ -42,7 +42,8 @@ if(parsed_cart_items && parsed_cart_items.length > 0){
     price_section.appendChild(checkout_btn);
     checkout_btn.addEventListener('click',()=>{
         console.log("ww")
-        localStorage.setItem('cart-items', JSON.stringify([]))
+        localStorage.setItem('cart-items', JSON.stringify([]));
+        window.location.href = "../pages/homepage.html";
     });
 }else{
     product.innerHTML = `            <svg width="258" height="234" viewBox="0 0 258 234" fill="none" xmlns="http://www.w3.org/2000/svg">
