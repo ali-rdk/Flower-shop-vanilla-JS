@@ -48,7 +48,19 @@ header{
 .menu p{
     padding: 0 1.2rem;
 }
+
 .menu p:hover{
+    color: #FF8F52;
+    cursor: pointer;
+}
+
+.menu a{
+    padding: 0 1.2rem;
+    text-decoration: none;
+    text-decoration-color: #454545;
+}
+
+.menu a:hover{
     color: #FF8F52;
     cursor: pointer;
 }
